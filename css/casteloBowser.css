@@ -1,0 +1,220 @@
+@import url('https://fonts.cdnfonts.com/css/new-super-mario-font-u');
+
+
+/* Estilos para o header */
+body {
+    background-image: linear-gradient(rgba(136, 33, 33, 0.863), #20421df5);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'New Super Mario Font U', sans-serif;
+  
+}
+
+#espelho {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+}
+
+#espelho2 {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+    margin-top: 49%;
+}
+
+
+
+header {
+    background-image: url(../img/brick-row.png);
+    background-size: 452px;
+    box-shadow: #171a2c 0px 10px 30px 10px;
+    color: white;
+    padding: 57px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+
+footer {
+    box-shadow: #000000 0px 10px 20px 20px;
+    color: #333;
+    padding: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    background-image: url(../img/bloco-super-mario.png);
+    background-size: 13%;
+}
+
+
+#bowser{
+    position: absolute;
+    width: 550px;
+    margin-top: 280px;
+
+}
+
+#castelo{
+    position: absolute;
+    margin-top: 290px;
+    width: 700px;
+    margin-left: 33%;
+}
+
+#H{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 900px;
+}
+
+
+
+#texto1{
+    position: absolute;
+    margin-top: 22%;
+    width: 700px;
+    margin-left: 33%;
+}
+#texto2{
+    position: absolute;
+    margin-top: 24%;
+    width: 700px;
+    margin-left: 33%;
+}
+#texto3{
+    position: absolute;
+    margin-top: 27%;
+    width: 500px;
+    margin-left: 39%;
+}
+#texto4{
+    position: absolute;
+    margin-top: 29%;
+    width: 700px;
+    margin-left: 34%;
+}
+
+#play{
+    position: absolute;
+    margin-top: 33%;
+    width: 170px;
+    margin-left: 47%;
+    transition: 0.5s ease;
+}
+
+#play:hover {
+    transform: scale(1.1);
+}
+
+#blocoVoltar{
+    position: absolute;
+    width: 140px;
+    margin-top: -3%;
+    margin-left: -45%;
+}
+
+
+.sec {
+    height: 850px;
+    color: #fff;
+    width: 97%;
+    margin-left: 23px;
+}
+
+
+#sec1 {
+
+    border: solid;
+}
+
+#sec2 {
+    height: 850px;
+    margin-top: 50%;
+}
+
+#malu{
+    position: absolute;
+    width: 550px;
+    margin-left: 70.5%;
+    margin-top: 17%;
+
+}
+
+#bomb{
+    position: absolute;
+    width: 200px;
+    margin-top: 37%;
+    margin-left: 30%;
+}
+
+#bill{
+    position: absolute;
+    width: 170px;
+    margin-top: 7%;
+    margin-left: 88%;
+}
+
+
+
+
+#historia{
+    position: absolute;
+    color: rgb(230, 230, 24);
+    font-size: 30px;
+    margin-top: 14%;
+text-align: center;
+margin-left: 12%;
+width: 1400px;
+}
+
+.t{
+    background: transparent;
+    border: none;
+}
+
+.caminho{
+    position: absolute;
+    margin-top: 34%;
+    width: 300px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.caminho:hover {
+    transform: scale(1.1);
+}
+
+#A{
+    margin-left: 25%;
+}
+
+#B{
+    margin-left: 55%;
+}
+
+#jr{
+    position: absolute;
+    width: 330px;
+    margin-top: 19%;
+    margin-left: 78%;
+}
+#bomb2{
+    position: absolute;
+    width: 250px;
+    margin-top: 33%;
+
+}

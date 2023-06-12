@@ -1,0 +1,334 @@
+/* Estilos para o header */
+body {
+    background-image: linear-gradient(to right, rgba(161, 66, 66, 0.863), #375d97f5);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+header {
+    background-image: url(../img/brick-row.png);
+    background-size: contain;
+    
+    background-position: center;
+    box-shadow: #171a2c 0px 10px 30px 10px;
+    color: white;
+    padding: 57px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para o footer */
+footer {
+    background: linear-gradient(rgb(176, 11, 11), rgb(3, 17, 39));
+    box-shadow: #000000 0px 10px 20px 20px;
+    color: #333;
+    padding: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    background-image: url(../img/bloco-super-mario.png);
+    background-size: 13%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+#mario {
+    position: fixed;
+    margin-top: -31%;
+    width: 450px;
+    margin-left: 22%;
+    background-size: contain;
+}
+
+#lulu {
+    position: absolute;
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: -43%;
+    width: 420px;
+    margin-left: 16%;
+
+
+}
+
+
+#service {
+    margin-top: 14%;
+    margin-left: 15px;
+}
+
+
+
+.card {
+    height: 400px;
+    width: 262px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+#img1 {
+    background-image: url(../img/4.png);
+    box-shadow: #e47373 5px 5px 45px 5px;
+}
+
+#img2 {
+    background-image: url(../img/3.png);
+    box-shadow: #fba6ffbf 5px 5px 45px 5px;
+}
+
+#img3 {
+    background-image: url(../img/2.png);
+    box-shadow: #63cb8eb8 5px 5px 45px 5px;
+}
+
+#img4 {
+    background-image: url(../img/luigiWo.png);
+    box-shadow: #2f7164a9 5px 5px 45px 5px;
+}
+
+
+
+#imagensM {
+    position: relative;
+
+}
+
+/* #marioCelular {
+    position: fixed;
+    width: 350px;
+    margin-left: -50%;
+    margin-top: -65%;
+} */
+
+@media (min-width: 800px) {
+    #imagensM #marioCelular {
+        display: none;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 400px) {
+
+    header,
+    footer {
+        padding: 30px;
+    }
+}
+
+#mini {
+    position: absolute;
+    width: 520px;
+    margin-top: -90px;
+    margin-left: 19%;
+}
+
+
+
+
+#canoInfo {
+    width: 110px;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    margin-left: 10%;
+    margin-top: 55px;
+    position: absolute;
+}
+
+#maisJogos {
+    position: absolute;
+    width: 350px;
+    margin-top: 25%;
+    margin-left: -40%;
+
+    transition: 0.5s ease;
+}
+
+#maisJogos:hover {
+    transform: scale(1.1);
+}
+
+#cugo{
+    position: absolute;
+    width: 90px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+
+@media (min-width: 250px) and (max-width: 650px) {
+    #service {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card {
+      margin: 20px 0;
+    }
+
+
+    #canoInfo{
+        display: none;
+    }
+    #cugo{
+        display: none;
+    }
+    #lulu{
+        display: none;
+    }
+    #mario{
+        display:none;
+    }
+
+
+    #mini{
+        margin: 50px;
+        position: relative;
+        width: 400px;
+         margin-top: 100px;
+         margin-left: 50px;
+    }
+
+#maisJogos{
+    position: relative;
+    margin: 40px;
+    margin-top: 7%;
+  width: 280px;
+}
+  }
+  
+
+  @media (min-width: 652px) and (max-width: 1100px) {
+    #canoInfo{
+        display: none;
+    }
+    #cugo{
+        display: none;
+    }
+    #lulu{
+        display: none;
+    }
+    #mario{
+        display:none;
+    }
+    #mini{
+        margin: 50px;
+        position: relative;
+        width: 500px;
+         margin-top: 100px;
+         margin-left: 100px;
+    }
+
+    #service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .card {
+        margin: 20px 0;
+      }
+      #maisJogos{
+        position: relative;
+        margin: 40px;
+        margin-top: 7%;
+      width: 430px;
+    }
+    
+  }
+
+  @media (min-width: 1100px) and (max-width: 1417px) {
+
+    #canoInfo{
+        display: none;
+    }
+    #cugo{
+        display: none;
+    }
+    #lulu{
+        display: none;
+    }
+    #mario{
+        display:none;
+    }
+    #mini{
+        margin: 50px;
+        position: relative;
+        width: 500px;
+         margin-top: 100px;
+         margin-left: 100px;
+    }
+
+    #service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .card {
+        margin: 20px 0;
+      }
+      #maisJogos{
+        position: relative;
+        margin: 40px;
+        margin-top: 7%;
+      width: 430px;
+    }
+
+    
+  }
+
+
+
+
+  
+  #espelho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+}
+

@@ -1,0 +1,218 @@
+/* Estilos para o header */
+body {
+    background-image: linear-gradient(to right, rgba(161, 66, 66, 0.863), #375d97f5);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#espelho {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+}
+header {
+    background-image: url(../img/brick-row.png);
+    background-size: 452px;
+    box-shadow: #171a2c 0px 10px 30px 10px;
+    color: white;
+    padding: 57px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para o footer */
+footer {
+    background: linear-gradient(rgb(176, 11, 11), rgb(3, 17, 39));
+    box-shadow: #000000 0px 10px 20px 20px;
+    color: #333;
+    padding: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    background-image: url(../img/bloco-super-mario.png);
+    background-size: 13%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+
+#service {
+    margin-top: 14%;
+    margin-left: 15px;
+}
+
+
+
+.card {
+    height: 400px;
+    width: 262px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+#img1 {
+    background-image: url(../img/batepapo.png);
+    box-shadow: #e47373 5px 5px 45px 5px;
+}
+
+#img2 {
+    background-image: url(../img/castelodobowser.png);
+    box-shadow: #fba6ffbf 5px 5px 45px 5px;
+}
+
+#img3 {
+    background-image: url(../img/marioJumping.png);
+    box-shadow: #63cb8eb8 5px 5px 45px 5px;
+}
+
+#img4 {
+    background-image: url(../img/flappy.png);
+    box-shadow: #e3913ea9 5px 5px 45px 5px;
+}
+
+
+
+
+#img5 {
+    background-image: url(../img/apenas.png);
+    box-shadow: #e47373 5px 5px 45px 5px;
+}
+
+#img6 {
+    background-image: url(../img/luigiWo.png);
+    box-shadow: #fba6ffbf 5px 5px 45px 5px;
+}
+
+#img7 {
+    background-image: url(../img/12.png);
+    box-shadow: #63cb8eb8 5px 5px 45px 5px;
+}
+
+#img8 {
+    background-image: url(../img/quem.png);
+    box-shadow: #e3913ea9 5px 5px 45px 5px;
+}
+
+
+
+
+
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 400px) {
+
+    header,
+    footer {
+        padding: 30px;
+    }
+}
+
+#mini {
+    position: absolute;
+    width: 600px;
+    margin-top: -90px;
+    margin-left: 15%;
+}
+
+
+#blocoVoltar{
+    position: absolute;
+    width: 142px;
+    margin-top: -3%;
+    margin-left: -45.5%;
+}
+
+  
+#espelho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+@media (min-width: 250px) and (max-width: 650px) {
+    #service {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card {
+      margin: 20px 0;
+    }
+
+
+    #canoInfo{
+        display: none;
+    }
+    #cugo{
+        display: none;
+    }
+    #lulu{
+        display: none;
+    }
+    #mario{
+        display:none;
+    }
+
+#mini{
+    margin: 50px;
+    position: relative;
+    width: 320px;
+}
+
+#blocoVoltar {
+    position: absolute;
+    width: 140px;
+    margin-top: -7%;
+    margin-left: -39%;
+
+    /* Adicione os estilos de largura relativa */
+    width: 20%;
+
+    /* Adicione um limite máximo para evitar que fique muito pequeno */
+    max-width: 78px;
+}
+}
+

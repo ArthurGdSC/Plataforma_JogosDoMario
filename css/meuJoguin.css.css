@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .background {
+	height: 100vh;
+	width: 100vw;
+	background: url('../img/fundoFlap.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  
+  .personagem {
+	height: 100px;
+	width: 130px;
+	position: fixed;
+	top: 40vh;
+	left: 30vw;
+	z-index: 100;
+  }
+  
+  .cloud {
+	position: absolute;
+	top: 20vh;
+	left: 100vw;
+	width: 100px;
+	height: 50px;
+	background-image: url('img/clouds.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 2;
+  }
+  
+  .pipe_sprite {
+	position: fixed;
+	top: 40vh;
+	left: 100vw;
+	height: 70vh;
+	width: 6vw;
+	background: radial-gradient(lightgreen 50%, green);
+	border: 5px solid black;
+  }
+  
+  .message {
+	position: absolute;
+	color: black;
+	top: 20%;
+	font-size: 4em;
+	text-align: center;
+	width: 2000px;
+	height: 70%;
+	margin-left: 24%;
+  }
+  
+  .messageStyle {
+	background: white;
+	padding: 30px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 5%;
+  }
+  
+  .score {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	top: 0;
+	left: 0;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .score_title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #a32929;
+  }
+  
+  .score_val {
+	font-size: 24px;
+	color: #ffffff;
+  }
+  
+  #escolha {
+	margin: 40px;
+  }
+  
+  #comeca {
+	width: 900px;
+	margin: 80px;
+	margin-left: 80px;
+  }
+  
+  @media only screen and (max-width: 1080px) {
+	.message {
+	  font-size: 50px;
+	  top: 50%;
+	  white-space: nowrap;
+	}
+  
+	.score {
+	  font-size: 8vh;
+	}
+  
+	.personagem {
+	  width: 120px;
+	  height: 90px;
+	}
+  
+	.pipe_sprite {
+	  width: 14vw;
+	}
+  }
+  
+  header {
+	background-image: url(../img/brick-row.png);
+	background-size: 452px;
+	box-shadow: #171a2c 0px 10px 30px 10px;
+	color: white;
+	padding: 57px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+  }
+  
+  header h1 {
+	margin: 0;
+  }
+  
+  footer {
+	background: linear-gradient(rgb(176, 11, 11), rgb(3, 17, 39));
+	box-shadow: #000000 0px 10px 20px 20px;
+	color: #333;
+	padding: 35px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	background-image: url(../img/bloco-super-mario.png);
+	background-size: 13%;
+  }
+  
+  #fan {
+	width: 200px;
+  }
+  
+  #lulu {
+	width: 150px;
+  }
+  
+  #espelho {
+	position: absolute;
+	width: 1300px;
+	margin-top: -20%;
+	margin-left: -22%;
+	object-position: 210px 200px;
+  }
+  #blocoVoltar{
+    position: absolute;
+    width: 140px;
+    margin-top: -3%;
+    margin-left: -45%;
+  }
+
+ #tar{
+	width: 150px;
+ }
+#fan{
+	width: 150px;
+}
+#comeca {
+	margin-top: 30%;
+	margin-left: -40%;
+	position: absolute;
+}
+
+#personagensIMG{
+	position: absolute;
+	margin-left: 23%;
+}
+
+input{
+	display:  none;
+}
+
+
+
+
+
+

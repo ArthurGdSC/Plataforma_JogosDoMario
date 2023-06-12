@@ -1,0 +1,173 @@
+@import url('https://fonts.cdnfonts.com/css/new-super-mario-font-u');
+
+
+
+
+
+
+/* Estilos para o header */
+body {
+    background-image: linear-gradient( rgba(161, 36, 36, 0.863), #963f91f5);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'New Super Mario Font U', sans-serif;
+    color: rgb(228, 206, 250);
+}
+
+
+header {
+	background-image: url(../img/brick-row.png);
+	background-size: 452px;
+	box-shadow: #171a2c 0px 10px 30px 10px;
+	color: white;
+	padding: 57px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+  }
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para o footer */
+footer {
+    background: linear-gradient(rgb(176, 11, 11), rgb(3, 17, 39));
+    box-shadow: #000000 0px 10px 20px 20px;
+    color: #333;
+    padding: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    background-image: url(../img/bloco-super-mario.png);
+    background-size: 13%;
+}
+
+
+#espelho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#blocoVoltar{
+    position: absolute;
+    width: 140px;
+    margin-top: -3%;
+    margin-left: -45%;
+  }
+
+
+  .container{
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  #romance{
+    position: absolute;
+    width: 750px;
+    margin-top: 9%;
+    margin-left: 32%;
+  }
+
+  button{
+    background: transparent;
+    border: none;
+    margin-top: 36%;
+    margin-left: 39.5%;
+    position: fixed;
+  }
+
+  #seuAmor{
+    transition: 0.5s ease;
+    cursor: pointer;
+
+    width: 450px;
+}
+
+
+
+#seuAmor:hover {
+    transform: scale(1.1);
+}
+
+#numero{
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 22%;
+}
+
+#resultado{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 27%;
+   
+}
+
+.pessoas{
+    position: absolute;
+    width: 340px;
+    margin-top: 16%;
+height: 35px;
+border-radius: 10px;
+background: rgb(238, 211, 234);
+border:  solid 2px pink;
+font-size:16px;
+text-align: center;
+}
+
+#caixa1{
+    margin-left: 29%;
+}
+#caixa2{
+    margin-left: 55%;
+}
+
+#princesa{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 6%;
+    width: 400px;
+}
+
+#mario{
+    position: absolute;
+    width: 230px;
+    margin-top: 8%;
+    margin-left: 35px;
+}
+
+#toadApaixonado{
+position: absolute;
+width: 200px;
+margin-top: 28.8%;
+margin-left: 88%;
+-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#toudette{
+    position: absolute;
+    width: 280px;
+    margin-top: 28.8%;
+    margin-left: 75%;
+}

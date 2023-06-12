@@ -1,0 +1,276 @@
+@import url('https://fonts.cdnfonts.com/css/new-super-mario-font-u');
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'New Super Mario Font U', sans-serif;
+}
+  
+  header {
+	background-image: url(../img/brick-row.png);
+	background-size: 452px;
+	box-shadow: #171a2c 0px 10px 30px 10px;
+	color: white;
+	padding: 57px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+  }
+  
+  header h1 {
+	margin: 0;
+  }
+  
+  footer {
+	background: linear-gradient(rgb(176, 11, 11), rgb(3, 17, 39));
+	box-shadow: #000000 0px 10px 20px 20px;
+	color: #333;
+	padding: 35px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	background-image: url(../img/bloco-super-mario.png);
+	background-size: 13%;
+  }
+ 
+
+  #blocoVoltar{
+    position: absolute;
+    width: 140px;
+    margin-top: -3%;
+    margin-left: -45%;
+  }
+
+  #espelho{
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+}
+#espelho2{
+  position: absolute;
+  top: 0;
+  width: 99%;
+  height: 100%;
+  margin-top: 50%;
+}
+#espelho3{
+  position: absolute;
+  top: 0;
+  width: 99%;
+  height: 100%;
+  margin-top: 100%;
+}
+#espelho4{
+  position: absolute;
+  top: 0;
+  width: 99%;
+  height: 100%;
+  margin-top: 150%;
+}
+
+.sec {
+  height: 100vh;
+}
+
+
+#sec1 {
+  background-image: linear-gradient( #375d97f5,rgba(161, 66, 66, 0.863) );
+
+}
+
+#sec2 {
+    background-image: linear-gradient( #375d97f5,rgba(77, 161, 66, 0.863) );
+}
+#sec3 {
+  background-image: linear-gradient( #375d97f5,rgba(161, 66, 66, 0.863) );
+}
+ 
+#sec4 {
+  background-image: linear-gradient( #977937f5,rgba(50, 78, 53, 0.863) );
+}
+ 
+
+
+
+
+#pessoal{
+  position: absolute;
+  margin-top: 15%;
+  width: 870px;
+  margin-left: 54%;
+}
+
+#quemSomos{
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 180px;
+  width: 580px;
+}
+
+#proximo{
+  position: absolute;
+  margin-top: 40%;
+  width: 150px;
+  margin-left: 400px;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+#proximo:hover {
+    transform: scale(1.3);
+}
+
+#maLU{
+  position: absolute;
+  width: 650px;
+  margin-top: 150px;
+  margin-left: 0px;
+}
+
+#moedas{
+  position: absolute;
+  width: 220px;
+  margin-top: 34.5%;
+  margin-left: 84%;
+}
+
+#proximo2{
+  position: absolute;
+  margin-top: 35%;
+  width: 150px;
+  margin-left: 65%;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+#proximo2:hover {
+    transform: scale(1.3);
+}
+
+#marioPensando{
+  position: absolute;
+  width: 450px;
+  margin-top: 18%;
+  margin-left: 75%;
+}
+
+#proximo3{
+  position: absolute;
+  margin-top: 35%;
+  width: 150px;
+  margin-left: 20%;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+#proximo3:hover {
+    transform: scale(1.3);
+}
+
+#toad{
+  position: absolute;
+  margin-left: 66%;
+  margin-top: 12%;
+  width: 280px;
+
+
+  -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#cugo{
+  position: absolute;
+  width: 120px;
+  margin-top: 40%;
+  margin-left: 63%;
+}
+
+
+#proximo4:hover {
+    transform: scale(1.3);
+}
+
+#mundo{
+  width: 1000px;
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 25%;
+}
+
+#canoDivisor{
+  position: absolute;
+  margin-left: 46.6%;
+  margin-top: -14%;
+  width: 1013px;
+
+}
+#canoDivisor2{
+  position: absolute;
+  -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  margin-top: -14%;
+  width: 1013px;
+}
+.caixaDeTexto{
+  position: absolute;
+  margin-top: 17%;
+  color: yellow;
+  font-size: 40px;
+  text-align: center;
+  width: 750px;
+  margin-left:90px;
+}
+
+#parcerias{
+  position: absolute;
+  width: 330px;
+  margin-top: 12%;
+  margin-left: 60%;
+}
+
+#caixa2{
+  margin-left: 50%;
+  margin-top: 16%;
+  font-size: 30px;
+}
+
+#quem{
+  position: absolute;
+  margin-top: 14%;
+  width: 580px;
+  margin-left: 170px;
+}
+
+#caixa1{
+  font-size: 30px;
+}
+
+#caixa3{
+  font-size: 32px;
+  margin-top: 18%;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s, transform 0.5s;
+}

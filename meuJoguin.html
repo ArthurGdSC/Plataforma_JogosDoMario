@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Joguin</title>
+    <link rel="stylesheet" href="css/meuJoguin.css.css">
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/question-block.png" alt="" id="blocoVoltar">
+        </a>
+    </header>
+    <div class="background"></div>
+    <img src="img/personagem.png" alt="personagem-img" class="personagem" id="personagem-1">
+
+
+    <div class="message">
+
+        <img src="img/escolhaSeuPersonagem.png" alt="" id="escolha">
+
+        <div id="personagensIMG">
+            <input type="radio" id="personagem-1" name="personagem" value="img/personagem.png" >
+
+            <label for="personagem-1">
+                <img src="img/personagem.png" alt="personagem 1" id="mar" onclick="funcaoTeste('mar', 'tar', 'fan', 'lulu')">
+            </label>
+
+            <input type="radio" id="personagem-2" name="personagem" value="img/personagem2.png" onclick="funcaoTeste('lulu', 'tar', 'fan', 'mar')">
+
+            <label for="personagem-2">
+                <img src="img/personagem2.png" alt="personagem 2"  id="lulu">
+            </label>
+
+                <input type="radio" id="personagem-3" name="personagem" value="img/personagem3.png" >
+
+                <label for="personagem-3">
+                <img src="img/personagem3.png" alt="personagem 3" id="fan" onclick="funcaoTeste('fan', 'tar', 'mar', 'lulu')">
+
+                <input type="radio" id="personagem-4" name="personagem" value="img/personagem4.png" >
+
+                <label for="personagem-4" onclick="funcaoTeste('tar', 'fan', 'lulu', 'mar')">
+                    <img src="img/personagem4.png" alt="personagem 4" id="tar">
+                </label>
+
+                <audio id="musica" src="music/super_mario_theme_song.mp3"></audio>
+
+        </div>
+        <img src="img/espacoComecar.png" alt="" id="comeca">
+    </div>
+
+ 
+
+    <footer>
+    </footer>
+    <script src="Js/meuJoguin.js.js" defer></script>
+</body>
+
+</html>

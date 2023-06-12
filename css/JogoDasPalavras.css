@@ -1,0 +1,161 @@
+body {
+    background-image: linear-gradient(rgba(109, 5, 125, 0.648) 30%, #7292d7f6);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+  
+#espelho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+header {
+    background-image: url(../img/brick-row.png);
+    background-size: contain;
+    
+    background-position: center;
+    box-shadow: #171a2c 0px 10px 30px 10px;
+    color: white;
+    padding: 57px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+
+footer {
+    box-shadow: #000000 0px 10px 20px 20px;
+    color: #333;
+    padding: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-image: url(../img/bloco-super-mario.png);
+    background-size: 13%;
+}
+
+#princesa {
+    position: absolute;
+    margin-top: 13%;
+    width: 350px;
+    margin-left: 78%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#toadete1 {
+    position: absolute;
+    margin-top: 31.5%;
+    width: 250px;
+    margin-left: 74%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#palavra {
+    position: absolute;
+    margin-top: 8%;
+    width: 750px;
+    margin-left: 32%;
+}
+
+
+
+
+#nome {
+    width: 580px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 31%;
+    margin-left: 35%;
+    font-size: 37px;
+    padding-left: 60px;
+    position: absolute;
+    background-size: 770px;
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 40px 10px rgb(82, 55, 84);
+
+}
+
+#btnmudar {
+    margin-left: 720px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-top: 36%;
+}
+
+
+#btnmudar:hover {
+    transform: scale(1.1);
+}
+
+
+#mudar {
+    width: 530px;
+}
+
+#caixaPalavras {
+    margin-top: 11.5%;
+    position: absolute;
+    margin-left: 35.5%;
+    width: 33%;
+   display: block;
+
+}
+
+
+
+#caixaPalavras p {
+    margin: 30px;
+    font-size: 38px;
+    color: white;
+
+    text-align: center;
+}
+
+.teste {
+    background-size: 440px;
+    border-radius: 50px;
+    margin: 15px;
+}
+
+#blocoVoltar {
+    position: absolute;
+    width: 140px;
+    margin-top: -3%;
+    margin-left: -47.9%;
+}
+
+#yoshi{
+    position: absolute;
+    margin-top: 410px;
+    width: 700px;
+    margin-left: -30px;
+}
